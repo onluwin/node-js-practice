@@ -1,0 +1,62 @@
+[
+  {
+    "id": "qBc3s8K8xCwzSiXVBuKa5",
+    "brand": "Toyota",
+    "model": "Camry",
+    "fuelType": "Petrol"
+  },
+  {
+    "id": "g8M36eQI7hG3DT9bErWo2",
+    "brand": "Honda",
+    "model": "Civic",
+    "fuelType": "Petrol"
+  },
+  {
+    "id": "zOvkPJKL39XSB1dmtT0Fe",
+    "brand": "Ford",
+    "model": "Mustang",
+    "fuelType": "Petrol"
+  },
+  {
+    "id": "VUWt6MP87sgGYv41QIxl9",
+    "brand": "Tesla",
+    "model": "Model S",
+    "fuelType": "Electric"
+  },
+  {
+    "id": "sLb29qUVfD6vrz43Tj0hM",
+    "brand": "BMW",
+    "model": "X5",
+    "fuelType": "Diesel"
+  },
+  {
+    "id": "5N9aEC4nJlfgFmU2W8DoL",
+    "brand": "Chevrolet",
+    "model": "Cruze",
+    "fuelType": "Petrol"
+  },
+  {
+    "id": "5XIs7q86bSmGfJH4r1ZLe",
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "fuelType": "Diesel"
+  },
+  {
+    "id": "x2S6bHl1D7QgRvYo9F3jP",
+    "brand": "Audi",
+    "model": "A4",
+    "fuelType": "Petrol"
+  },
+  {
+    "id": "NPYkUt2VW8o93q1vG6QJS",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "fuelType": "Petrol"
+  },
+  {
+    "id": "E1AT74dWnS9RslCvYfK82",
+    "brand": "Volvo",
+    "model": "XC60",
+    "fuelType": "Diesel"
+  }
+]
