@@ -6,8 +6,9 @@
 
 // sum(1, 20);
 
-const { nanoid } = require("nanoid");
 const cars = require("./LESSON 1/PART 2/cars");
+
+const argv = require("yargs").argv;
 
 const invokeAction = async ({ action, id, brand, model, fuelType }) => {
   switch (action) {
@@ -33,7 +34,7 @@ const invokeAction = async ({ action, id, brand, model, fuelType }) => {
 
     default:
       return console.log(
-        "Unknown action. Available actions: read, readById, add, updateById."
+        "Unknown action. Available actions: read, readById, add, updateById, deleteById."
       );
   }
 };
@@ -42,7 +43,6 @@ const invokeAction = async ({ action, id, brand, model, fuelType }) => {
 
 // invokeAction({
 //   action: "add",
-//   id: nanoid(),
 //   brand: "Lamborgini",
 //   model: "Huraccan",
 //   fuelType: "Diesel",
@@ -58,4 +58,6 @@ const invokeAction = async ({ action, id, brand, model, fuelType }) => {
 //   fuelType: "Beer",
 // });
 
-// invokeAction({ action: "deleteById", id: "" });
+// invokeAction({ action: "deleteById", id: "x2S6bHl1D7QgRvYo9F3jP" });
+
+invokeAction(argv);

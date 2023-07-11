@@ -1,6 +1,6 @@
 const fs = require("fs/promises");
+const { nanoid } = require("nanoid");
 const path = require("path");
-// const { nanoid } = require("nanoid");
 
 const getAllCars = async () => {
   const carsPath = path.join(__dirname, "cars.json");
@@ -15,8 +15,11 @@ const getById = async (id) => {
   return parsedCars.find((car) => car.id === id) || null;
 };
 
-const add = async (newCar) => {
+const add = async (data) => {
   const cars = await getAllCars();
+
+  const newCar = { ...data, id: nanoid() };
+
   cars.push(newCar);
 
   const carsPath = path.join(__dirname, "cars.json");
@@ -41,6 +44,8 @@ const updateById = async (id, updatedCar) => {
 };
 
 const deleteById = async (id) => {
+  console.log("id", id);
+  console.log("typeof id", typeof id);
   const cars = await getAllCars();
   const index = cars.findIndex((car) => car.id === id);
 

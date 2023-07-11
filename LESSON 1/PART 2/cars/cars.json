@@ -46,17 +46,5 @@
     "brand": "Audi",
     "model": "A4",
     "fuelType": "Petrol"
-  },
-  {
-    "id": "NPYkUt2VW8o93q1vG6QJS",
-    "brand": "Hyundai",
-    "model": "Tucson",
-    "fuelType": "Petrol"
-  },
-  {
-    "id": "E1AT74dWnS9RslCvYfK82",
-    "brand": "Volvo",
-    "model": "XC60",
-    "fuelType": "Diesel"
   }
 ]
